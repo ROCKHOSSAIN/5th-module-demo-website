@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('images/banner/banner3.png');
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    background-size: contain;
+    
+}
+.info{
+    margin-bottom: 100px;
+    width: 494px;
+    margin-right: 230px;
+    
+   
+   
+}
+.header-info{
+    color: #FFF;
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.header-para{
+    color: #FFF;
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.header-btn{
+    border-radius: 5px;
+    background: #FFF;
+    width: 140px;
+height: 64px;
+flex-shrink: 0;
+margin-top: 20px;
+margin-left: 360px;
+border: none;
+}
+
+/* failure-section  */
+.failure-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding: 70px 0px;
+}
+.failure{
+    margin-top: 115px;
+}
+.title-2{
+    color:  #151414;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 288px;
+margin-bottom: 20px;
+ }
+ .para-2{
+    color:  #444343;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+width: 416px;
+
+ }
+ .para-last{
+    margin-top:20px;
+ }
+.checkbox-para{
+    display: flex;
+    align-items: center;
+    font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+    
+    
+}
+.checkbox{
+   margin-top: 20px;
+   margin-right: 10px;
+   height: 25px;
+}
+/* end failure section */
+
+/* plan start  */
+.title-3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.plan-section{
+    height: 30vh;
+}
+.plans,.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.icon-3{
+    margin-left: 40px;
+}
+.icon-js{
+    margin-left: 10px;
+}
+.all-plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+
+
+/* mindset section  */
+
+.watch-section{
+    background-size: contain;
+    height: auto;
+    position: relative;
+
+    margin-left: 20%;
+    border-radius: 8px;
+    margin-bottom: 100px;
+
+}
+
+
+
+.text{
+    position:absolute;
+    top: 100px;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+left: 40px;
+}
+.btn-watch{
+    position:absolute;
+color: #005FAC;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+top: 230px;
+left: 40px;
+}
+.btn-watch-1{
+    padding: 15px;
+
+}
+
+/* end  */
+
+/* start footer  */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(194, 70, 70);
+    padding: 100px;
+}
+.title-footer{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.desc-footer{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+}
+.contact{
+    margin:10px 0px;
+    font-size: 13px;
+    font-family: Work Sans;
+    
+}
+.social-links{
+    margin-right:10px;
+}
+.subscription{
+    margin-bottom: 70px;
+}
+.email-box{
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    margin-top: 10px;
+    
+    
+}
+.btn-footer{
+    background-color: #2d30c9;
+    color: white;
+font-size: 20px;
+padding: 15px;
+border-radius: 10px;
+margin-top: 10px;
+}
+.footer-title{
+    color: white;
+    font-weight: 200;
+
+}
