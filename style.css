@@ -13,8 +13,10 @@ body{
  
     background-image: url('images/banner/banner3.png');
     height: 100vh;
-    background-size: contain;
+    background-size: cover;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 .info{
@@ -141,29 +143,36 @@ font-weight: 400;
 
 /* mindset section  */
 
-.watch-section{
-    background-size: contain;
-    height: auto;
-    position: relative;
 
-    margin-left: 20%;
-    border-radius: 8px;
-    margin-bottom: 100px;
+.watch-section{
+    max-width: 800px;
+    background-image: url("images/gradient1.png"),url("images/watch.png");
+    margin: auto;
+    margin-top: 4rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+}
+.watch-container{
+    height: 400px;
+    position: relative;
 
 }
 
-
+.watch-title{
+top: 40px;    
+position:absolute;
+margin-left: 20px;
+}
 
 .text{
-    position:absolute;
-    top: 100px;
-    color: #FFF;
+color: #FFF;
 font-family: Work Sans;
 font-size: 35px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-left: 40px;
 }
 .btn-watch{
     position:absolute;
@@ -179,6 +188,9 @@ left: 40px;
 }
 .btn-watch-1{
     padding: 15px;
+    margin-top:144px;
+    margin-left: 20px;
+    position:absolute;
 
 }
 
